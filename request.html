@@ -1,0 +1,41 @@
+<!-- Form -->
+<h3><b><center>Request Form<center></center></b></h3>
+<form method="post" action="#">
+    <div class="row gtr-uniform">
+        <div class="col-6 col-12-xsmall">
+            <input type="text" name="name" id="name" value="" placeholder="First Name Last Name" />
+        </div>
+        <div class="col-6 col-12-xsmall">
+            <input type="email" name="email" id="email" value="" placeholder="Your Email/Return Email" />
+        </div>
+        <!-- Break -->
+        <div class="col-12">
+            <select name="category" id="category">
+                <option value="">- Select -</option>
+                <option value="alpha">This Option</option>
+                <option value="beta">That Option</option>
+                <option value="gamma">No, The Other One</option>
+            </select>
+        </div>
+        <!-- Break -->
+        <div class="col-4 col-12-small">
+            <input type="radio" id="radio-alpha" name="radio" checked>
+            <label for="radio-alpha">I Brought My Own</label>
+        </div>
+        <div class="col-4 col-12-small">
+            <input type="radio" id="radio-beta" name="radio">
+            <label for="radio-beta">No, I Will Need One.</label>
+        </div>
+
+        <!-- Break -->
+        <div class="col-12">
+            <textarea name="textarea" id="textarea" placeholder="Please fill out form." rows="6"></textarea>
+        </div>
+        <!-- Break -->
+        <div class="col-12">
+            <ul class="actions">
+                <li><input type="submit" value="Submit Form" class="primary" /></li>
+            </ul>
+        </div>
+    </div>
+</form>
